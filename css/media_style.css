@@ -1,0 +1,57 @@
+/*
+Small	        sm	                ≥576px  max-width: 767px
+Medium	        md	                ≥768px  max-width: 991px
+Large	        lg	                ≥992px  max-width: 1199px
+Extra           large(xl)	        ≥1200px max-width: 1399px
+Extra           extra large(xxl)	≥1400px 
+*/
+
+
+/* Small devices (landscape phones, 576px and up) */
+@media only screen and (min-width: 576px){ 
+    .navbar-toggler {
+        border: none;
+        box-shadow: none;
+        /* margin-left: auto; */
+    }
+    .navbar-toggler:focus {
+        outline: none;
+        box-shadow: none;
+    }
+    .main-container{
+       max-width: 98%;
+    }
+    #recipe-card{
+        height: 1350px;
+    }
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media only screen and  (min-width: 768px){ 
+    .right-side-coulmn{
+        overflow-y: visible;
+        height: auto;
+    }
+}
+
+/* Large devices (desktops, 992px and up) */
+@media only screen and  (min-width: 992px){
+     #recipe-card{
+        height: 750px;
+    }
+}
+
+/* X-Large devices (large desktops, 1200px and up) */
+@media only screen and  (min-width: 1200px){
+    .main-container{
+       max-width: 90%;
+    }
+    
+}
+
+/*  XX-Large devices (larger desktops, 1400px and up) */
+@media only screen and  (min-width: 1400px){
+    .main-container{
+       max-width: 80%;
+    }
+}
